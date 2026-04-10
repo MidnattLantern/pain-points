@@ -49,3 +49,23 @@ a:hover {
     position: absolute;
     color: rgb(45, 155, 230);
 }
+
+/* phone footer */
+#phone-footer__home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#phone-footer__home > img {
+    width: 120px;
+}
+
+#phone-footer__menu {
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
