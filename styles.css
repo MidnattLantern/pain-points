@@ -116,3 +116,32 @@ a:hover {
     height: 30px;
     color: rgba(0, 0, 0, 0)
 }
+
+/* phone category */
+#phone-category__home {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+}
+
+#phone-category__home > img {
+    width: 120px;
+}
+
+#phone-category__menu {
+    position: absolute;
+    top: 88px;
+    right: 17px;
+    color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+#phone-category__sort-filter {
+    position: absolute;
+    top: 221px;
+    left: 35px;
+    color: rgba(0, 0, 0, 0);
+    width: 352px;
+    height: 38px;
+}
