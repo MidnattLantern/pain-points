@@ -1,0 +1,51 @@
+a:hover {
+    outline: 3px solid rgb(45, 155, 230);
+}
+
+#index-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-layout {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+.phone-layout__wrapper {
+    position: relative;
+    aspect-ratio: 9 / 16;
+}
+
+.phone-layout__wireframe {
+    position: relative;
+    height: 100%;
+}
+
+/* phone landing */
+#phone-landing__home {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+}
+
+#phone-landing__home > img {
+    width: 120px;
+}
+
+#phone-landing__menu {
+    position: absolute;
+    top: 88px;
+    right: 17px;
+    color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+#phone-landing__footer {
+    position: absolute;
+    color: rgb(45, 155, 230);
+}
