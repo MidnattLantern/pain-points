@@ -50,6 +50,15 @@ a:hover {
     color: rgb(45, 155, 230);
 }
 
+#phone-landing__category {
+    position: absolute;
+    top: 305px;
+    left: 13px;
+    width: 185px;
+    height: 107px;
+    color: rgba(0, 0, 0, 0);
+}
+
 /* phone footer */
 #phone-footer__home {
     position: absolute;
@@ -68,4 +77,42 @@ a:hover {
     color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
+}
+
+/* phone collapse */
+#phone-collapse__home {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+}
+
+#phone-collapse__home > img {
+    width: 120px;
+}
+
+#phone-collapse__menu {
+    position: absolute;
+    top: 90px;
+    right: 17px;
+    color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+#phone-collapse__home-alt {
+    position: absolute;
+    top: 176px;
+    right: 25px;
+    width: 370px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0)
+}
+
+#phone-collapse__category {
+    position: absolute;
+    top: 330px;
+    right: 25px;
+    width: 370px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0)
 }
