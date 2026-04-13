@@ -22,7 +22,25 @@ a:hover {
 
 .phone-layout__wireframe {
     position: relative;
-    height: 100%;
+    width: 100%;
+}
+
+.desktop-layout {
+    background-color: black;
+    margin: 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.desktop-layout__wrapper {
+    position: relative;
+    width: 1400px;
+}
+
+.desktop-layout__wireframe {
+    position: relative;
+    width: 100%;
 }
 
 /* phone landing */
@@ -53,7 +71,7 @@ a:hover {
 #phone-landing__category {
     position: absolute;
     top: 305px;
-    left: 13px;
+    right: 13px;
     width: 185px;
     height: 107px;
     color: rgba(0, 0, 0, 0);
@@ -110,7 +128,7 @@ a:hover {
 
 #phone-collapse__category {
     position: absolute;
-    top: 330px;
+    top: 373px;
     right: 25px;
     width: 370px;
     height: 30px;
@@ -182,4 +200,38 @@ a:hover {
     color: rgba(0, 0, 0, 0);
     width: 318px;
     height: 30px;
+}
+
+/* desktop landing */
+#desktop-landing__home {
+    position: absolute;
+    top: 83px;
+    left: 20px;
+}
+
+#desktop-landing__home > img {
+    width: 180px;
+}
+
+#desktop-landing__footer {
+    position: absolute;
+    color: rgb(45, 155, 230);
+}
+
+#desktop-landing__category {
+    position: absolute;
+    top: 198px;
+    left: 10px;
+    width: 290px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0);
+}
+
+#desktop-landing__category-alt {
+    position: absolute;
+    top: 432px;
+    left: 347px;
+    width: 227px;
+    height: 173px;
+    color: rgba(0, 0, 0, 0);
 }
