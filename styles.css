@@ -46,7 +46,7 @@ a:hover {
 /* phone landing */
 #phone-landing__home {
     position: absolute;
-    top: 95px;
+    top: 82px;
     left: 20px;
 }
 
@@ -56,8 +56,8 @@ a:hover {
 
 #phone-landing__menu {
     position: absolute;
-    top: 88px;
-    right: 17px;
+    top: 75px;
+    right: 18px;
     color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
@@ -70,8 +70,8 @@ a:hover {
 
 #phone-landing__category {
     position: absolute;
-    top: 305px;
-    right: 13px;
+    top: 292px;
+    right: 15px;
     width: 185px;
     height: 107px;
     color: rgba(0, 0, 0, 0);
@@ -100,7 +100,7 @@ a:hover {
 /* phone collapse */
 #phone-collapse__home {
     position: absolute;
-    top: 95px;
+    top: 82px;
     left: 20px;
 }
 
@@ -110,27 +110,18 @@ a:hover {
 
 #phone-collapse__menu {
     position: absolute;
-    top: 90px;
-    right: 17px;
+    top: 75px;
+    right: 18px;
     color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
 }
 
-#phone-collapse__home-alt {
-    position: absolute;
-    top: 176px;
-    right: 25px;
-    width: 370px;
-    height: 30px;
-    color: rgba(0, 0, 0, 0)
-}
-
 #phone-collapse__category {
     position: absolute;
-    top: 373px;
-    right: 25px;
-    width: 370px;
+    bottom: 190px;
+    right: 40px;
+    width: 342px;
     height: 30px;
     color: rgba(0, 0, 0, 0)
 }
@@ -138,7 +129,7 @@ a:hover {
 /* phone category */
 #phone-category__home {
     position: absolute;
-    top: 95px;
+    top: 82px;
     left: 20px;
 }
 
@@ -148,8 +139,8 @@ a:hover {
 
 #phone-category__menu {
     position: absolute;
-    top: 88px;
-    right: 17px;
+    top: 75px;
+    right: 18px;
     color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
@@ -157,17 +148,17 @@ a:hover {
 
 #phone-category__sort-filter {
     position: absolute;
-    top: 221px;
-    left: 35px;
+    top: 263px;
+    left: 2px;
     color: rgba(0, 0, 0, 0);
-    width: 352px;
-    height: 38px;
+    width: 418px;
+    height: 39px;
 }
 
 /* phone sort filter */
 #phone-sort-filter__home {
     position: absolute;
-    top: 95px;
+    top: 82px;
     left: 20px;
 }
 
@@ -177,8 +168,8 @@ a:hover {
 
 #phone-sort-filter__menu {
     position: absolute;
-    top: 88px;
-    right: 17px;
+    top: 75px;
+    right: 18px;
     color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
@@ -186,20 +177,11 @@ a:hover {
 
 #phone-sort-filter__close {
     position: absolute;
-    top: 221px;
-    left: 35px;
+    top: 263px;
+    left: 2px;
     color: rgba(0, 0, 0, 0);
-    width: 352px;
-    height: 38px;
-}
-
-#phone-sort-filter__apply {
-    position: absolute;
-    bottom: 81px;
-    left: 51px;
-    color: rgba(0, 0, 0, 0);
-    width: 318px;
-    height: 30px;
+    width: 418px;
+    height: 39px;
 }
 
 /* desktop landing */
