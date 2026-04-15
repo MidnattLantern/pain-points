@@ -5,13 +5,13 @@
 }
 
 a {
-/*
+    /*
     outline: 3px solid rgba(45, 155, 230, 0.6);
-*/
+    */
 }
 
 a:hover {
-    animation: pulse 1s  infinite;
+    animation: pulse 3s  infinite;
 }
 
 #index-menu {
@@ -257,10 +257,10 @@ a:hover {
 
 #desktop-landing__category-alt {
     position: absolute;
-    top: 408px;
+    top: 608px;
     left: 346px;
-    width: 210px;
-    height: 158px;
+    width: 290px;
+    height: 168px;
     color: rgba(0, 0, 0, 0);
 }
 
@@ -384,4 +384,23 @@ a:hover {
 
 .desktop-add-to-trolley:hover {
     opacity: 1;
+}
+
+.in-trolley-icon {
+    position: absolute;
+    top: 105px;
+    right: 85px;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    background-color: rgb(45, 155, 230);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
 }
