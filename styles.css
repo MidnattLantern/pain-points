@@ -184,6 +184,26 @@ a:hover {
     height: 39px;
 }
 
+/* phone product detail */
+#phone-product-detail__home {
+    position: absolute;
+    top: 82px;
+    left: 20px;
+}
+
+#phone-product-detail__home > img {
+    width: 120px;
+}
+
+#phone-product-detail__menu {
+    position: absolute;
+    top: 75px;
+    right: 18px;
+    color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
 /* desktop landing */
 #desktop-landing__home {
     position: absolute;
@@ -251,4 +271,24 @@ a:hover {
 
 #desktop-category__home > img {
     width: 180px;
+}
+
+/* desktop product detail */
+#desktop-product-detail__home {
+    position: absolute;
+    top: 83px;
+    left: 90px;
+}
+
+#desktop-product-detail__home > img {
+    width: 180px;
+}
+
+#desktop-product-detail__category {
+    position: absolute;
+    top: 330px;
+    left: 82px;
+    width: 230px;
+    height: 33px;
+    color: rgba(0, 0, 0, 0);
 }
