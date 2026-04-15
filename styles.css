@@ -273,6 +273,44 @@ a:hover {
     width: 180px;
 }
 
+#desktop-category__product-detail {
+    position: absolute;
+    top: 427px;
+    left: 340px;
+    width: 730px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0);
+}
+
+#desktop-category__sort-filter {
+    position: absolute;
+    top: 335px;
+    left: 335px;
+    width: 732px;
+    height: 45px;
+    color: rgba(0, 0, 0, 0);
+}
+
+/* desktop sort filter */
+#desktop-sort-filter__home {
+    position: absolute;
+    top: 83px;
+    left: 90px;
+}
+
+#desktop-sort-filter__home > img {
+    width: 180px;
+}
+
+#desktop-sort-filter__close {
+    position: absolute;
+    top: 335px;
+    left: 333px;
+    width: 735px;
+    height: 45px;
+    color: rgba(0, 0, 0, 0);
+}
+
 /* desktop product detail */
 #desktop-product-detail__home {
     position: absolute;
